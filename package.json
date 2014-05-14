@@ -1,3 +1,6 @@
 {
-    "name": "js-ood-d3"
+    "name": "js-ood-d3",
+    "dependencies": {
+        "js-ood": "latest"
+    }
 }
