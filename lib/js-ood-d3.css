@@ -1,0 +1,25 @@
+.ood-diagram {
+}
+
+/* nodes */
+.ood-package {
+    background-color: #AA3;
+}
+
+.ood-class {
+    background-color: #FFF;
+}
+
+.ood-interface {
+    background-color: #FFF;
+}
+
+/* edges */
+.ood-contains {
+}
+
+.ood-extends {
+}
+
+.ood-implements {
+}

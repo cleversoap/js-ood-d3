@@ -8,6 +8,11 @@
         "url": "http://github.com/cleversoap/js-ood-d3.git"
     },
     "dependencies": {
-        "js-ood": "0.0.1"
+        "js-ood": "0.0.1",
+        "dagre-d3": "latest"
+    },
+    "devDependencies": {
+        "gulp": "latest",
+        "gulp-browserify": "latest"
     }
 }
