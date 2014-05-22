@@ -1,18 +1,19 @@
 {
     "name": "js-ood-d3",
-    "version": "0.0.1",
-    "author": "cleversoap",
-    "main": "lib/js-ood-d3.js",
-    "repository": {
-        "type": "git",
-        "url": "http://github.com/cleversoap/js-ood-d3.git"
-    },
-    "dependencies": {
-        "js-ood": "0.0.1",
-        "dagre-d3": "latest"
-    },
-    "devDependencies": {
-        "gulp": "latest",
-        "gulp-browserify": "latest"
-    }
+        "version": "0.0.1",
+        "author": "cleversoap",
+        "main": "lib/js-ood-d3.js",
+        "repository": {
+            "type": "git",
+            "url": "http://github.com/cleversoap/js-ood-d3.git"
+        },
+        "dependencies": {
+            "js-ood": "0.0.1",
+            "dagre-d3": "latest"
+        },
+        "devDependencies": {
+            "gulp": "latest",
+            "gulp-browserify": "latest",
+            "gulp-replace": "latest"
+        }
 }
