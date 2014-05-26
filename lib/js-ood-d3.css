@@ -1,31 +1,58 @@
 .ood-diagram {
+    width: 100%;
+    height: 100%;
+}
+
+.ood-diagram text {
+  font-weight: 300;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serf;
+  font-size: 14px;
 }
 
 /* nodes */
-.ood-package {
-    background-color: #AA3;
-}
-
-.ood-class {
+.ood-node {
     fill: #000;
 }
 
-.ood-class rect {
+.ood-node rect {
     fill: #FFF;
     stroke: #333;
     stroke-width: 1.5px;
 }
 
+.ood-package {
+}
+
+.ood-package rect {
+    fill: #F8F5E1;
+    stroke: #666;
+}
+
+.ood-class {
+}
+
+.ood-class rect {
+}
+
 .ood-interface {
-    background-color: #FFF;
+    font-style: italic;
 }
 
 /* edges */
+.ood-edge {
+    fill: none;
+}
+
 .ood-contains {
+    stroke: #888;
+    stroke-dasharray: 2 2;
 }
 
 .ood-extends {
+    stroke: #000;
 }
 
 .ood-implements {
+    stroke: #000;
+    stroke-dasharray: 5 5;
 }
